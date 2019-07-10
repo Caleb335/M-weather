@@ -50,7 +50,7 @@ function init(resultFromServer) {
     let temperatureElement = document.getElementById('temperature');
     let humidityElement = document.getElementById('humidity');
     let windSpeedElement = document.getElementById('windSpeed');
-    let cityHeader = documenet.getElementById('cityHeader');
+    let cityHeader = document.getElementById('cityHeader');
     let weatherIcon = document.getElementById('documentIconImg');
 
     weatherIcon.src = 'http://openweathermap.org/img/w/' + resultFromServer.weather[0].icon + '.png';
@@ -59,7 +59,7 @@ function init(resultFromServer) {
     weatherDescriptionHeader.innerText = resultDescription.charAt(0).toUpperCase() + resultDescription.slice(1);
 
     temperatureElement.innerHTML = Math.floor(resultFromServer.main.temp) + '&#176';
-    windSpeedElement.innerHTML = 'wids at ' + Math.floor(resultFromServer.wind.speed) + 'm/s';
+    windSpeedElement.innerHTML = 'winds at ' + Math.floor(resultFromServer.wind.speed) + 'm/s';
     cityHeader.innerHTML = resultFromServer.name;
     humidityElement.innerHTML = 'Humidity levels at ' + resultFromServer.main.humidity + '%';
 }
