@@ -1,5 +1,5 @@
 let appId = "e718a0fc2d5a92cb3f1b23fce63019a6";
-let units = "metric";
+let units = "imperial";
 let searchMethod;
 
 function getSearchMethod(searchTerm) {
