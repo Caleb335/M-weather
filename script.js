@@ -1,5 +1,5 @@
 let appId = "e718a0fc2d5a92cb3f1b23fce63019a6";
-let units = "imperial";
+let units = "metric";
 let searchMethod;
 
 function getSearchMethod(searchTerm) {
@@ -25,7 +25,7 @@ function init(resultFromServer) {
             break;
 
         case 'Cloud':
-            document.body.style.backroundImage = 'url("cloudy.jpg")';
+            document.body.style.backroundImage = 'url("Cloudy.jpg")';
             break;
 
         case 'Rain':
@@ -35,11 +35,11 @@ function init(resultFromServer) {
             break;
         
         case 'Thunderstorm':
-            document.body.style.backgroundImage = 'url("thunderstorm.jpg")';
+            document.body.style.backgroundImage = 'url("Thunderstorm.jpg")';
             break;
         
         case 'Snow':
-            document.body.style.backgroundImage = 'url("snow.jpg")';
+            document.body.style.backgroundImage = 'url("Snow.jpg")';
             break;
     
         default:

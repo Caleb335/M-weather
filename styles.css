@@ -1,0 +1,95 @@
+body {
+    background-image: url('architecture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+}
+
+
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px #000;
+    padding:50px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+#weatherContainer {
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 300px;
+    margin-top: 175px;
+}
+
+#searchContainer {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#searchContainer input {
+    width: 200px;
+    font-size: 15px;
+}
+
+#searchContainer button {
+    background: aqua;
+    width: 80px;
+    font-size: 12px;
+}
+
+.searchControl {
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+    padding: 7px;   
+    box-shadow: 2px 2px 5px #000;
+}
+
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#weatherMain div {
+    display: inline-block;
+}
+
+#weatherDescriptionHeade {
+    font-size: 2px;
+    vertical-align: 50%;
+}
+
+#temperature {
+    vertical-align: 50%;
+    font-size: 38px;
+}
+
+.bottomDetails {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+
+hr {
+    color: #fff;
+    font-weight: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
